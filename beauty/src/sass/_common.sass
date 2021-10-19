@@ -1,5 +1,18 @@
++font('Gilroy-Light', 'gilrot-light')
++font('Gilroy-Medium', 'gilroy-medium')
+
+=fontGL
+    font-family: 'Gilroy-Light', sans-serif
+    font-style: normal
+    font-weight: normal
+=fontGM
+    font-family: 'Gilroy-Medium', sans-serif
+    font-style: normal
+    font-weight: normal
+
 body
-	background: #ff0
-	font-size: 200px
-	// +css-lock(16, 50, 600, 1000)
-	line-height: 1.4
+	+fontGL
+
+.container
+	width: 1295px
+	margin: auto
